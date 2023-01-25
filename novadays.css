@@ -1,0 +1,52 @@
+.title{
+    text-align: center;
+    font-size: 22px;
+}
+.home-return{
+    font-style: italic;
+}
+.shopping-list{
+    width: 200px;
+}
+.list-title{
+    text-align: center;
+}
+.food-list li:first-child{
+    background-color: grey;
+}
+.food-list li:nth-child(3){
+    background-color: grey;
+}
+.dessert {
+    text-align: center;
+}
+.dessert-list li:nth-child(3){
+    cursor: pointer;
+}
+.dessert-list li:nth-child(5){
+    cursor: pointer;
+}
+.dessert-list li:nth-child(4){
+    background-color: grey;
+}
+
+
+
+@media (min-width: 993px){
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .shopping{
+        width: 50%;
+    }
+    .desert-wrapper{
+        width: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+
+}
+@media (max-width: 768px){
+   
+}

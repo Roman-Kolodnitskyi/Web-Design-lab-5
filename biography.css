@@ -1,0 +1,98 @@
+.title{
+    text-align: center;
+    font-size: 22px;
+}
+.home-return{
+    font-style: italic;
+}
+#content{
+    text-align: center;
+}
+.navigation-item{
+    display: block;
+}
+.navigation a{
+    text-decoration: none;
+    border: 3px solid blue;
+    border-width: 6px;
+    background-color: blue;
+}
+.navigation-item{
+    color: white;
+}
+.wrapper{
+    width: 145px;
+}
+/*Hover elem*/
+.navigation a:hover{
+    text-decoration: none;
+    border: 3px solid magenta;
+    border-width: 6px;
+    background-color: magenta;
+}
+.navigation-item:hover{
+    color: black;
+}
+/*Active*/
+.navigation a:active{
+    text-decoration: none;
+    border: 3px solid yellow;
+    border-width: 6px;
+    background-color: yellow;
+}
+.navigation-item:active{
+    color: red;
+}
+/*Articl*/
+article{
+    font-size: 120%;
+}
+.article-title{
+    font-size: 140%;
+}
+#Basic-information p{
+    background-color: black;
+    color: white;
+}
+#childhood p{
+    color: red;
+    background-color: yellow;
+}
+#School-years p{
+    color: aqua;
+    background-color:  magenta;
+}
+#Outside-of-school p{
+    color: lightblue;
+    background-color: green;
+}
+#University p{
+    color: lime;
+    background-color: indigo;
+}
+.to-contant{
+    font-weight: 700;
+}
+#up{
+    text-transform: uppercase;
+}
+#Basic-information, #childhood, #School-years, #Outside-of-school,#University{
+    border: 1px solid black;
+}
+
+@media (min-width: 993px){
+    
+}
+@media (min-width: 768px) and (max-width: 992px){
+    
+}
+@media (max-width: 768px){
+   
+}
+
+
+
+
+
+
+
